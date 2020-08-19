@@ -1,26 +1,27 @@
 import React from 'react';
-import logo from './logo.svg';
+import Login from './login.js';
 import './App.css';
 
+
 function App() {
+
+  this.state = {
+    journalEntries: [],
+    selectedDate : Date.time()
+ }
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <select>
+       
+      </select>
     </div>
   );
-}
+} 
 
 export default App;
+
+//login page
+//sign up page
+//calender page
+//journal page
